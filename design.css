@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	color: #edfdff;
+}
+.VisualizationMainPage #mainContent {
+
+	background: #edfdff;
+}
+
+.VisualizationMainPage #container {
+
+
+	background: #edfdff;
+
+	text-align: left;
+}
+
+
+.VisualizationMainPage #algoControlSection
+{
+	background: #ddddee;
+	color:#000000;
+
+}
+
+
+.VisualizationMainPage #generalAnimationControlSection
+{
+	background: #ddddee;
+	color:#000000;
+
+}
+
+.VisualizationMainPage  #header {
+	background: #000000;
+	color:#701420;
+	padding: 0 10px 0 20px;
+
+}
+
+.VisualizationMainPage #header  A:visited
+	  { text-decoration:none;
+        color:#701420;
+	   }
+
+
+.VisualizationMainPage #header h1 {
+	margin: 0;
+	padding: 10px 0;
+	}
+
+.VisualizationMainPage #header A:link {
+    text-decoration:none;
+    color:#701420;
+	}
+
+
+.VisualizationMainPage #container {
+	background: #ddddee;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.VisualizationMainPage #mainContent h1{
+	padding: 0 20px;
+	background: #ddddee;
+	color:#000000;
+}
+
+.VisualizationMainPage #mainContent h2{
+	padding: 0 20px;
+	background: #ddddee;
+	color:#000000;
+}
+
+.VisualizationMainPage #mainContent h3{
+	padding: 0 20px;
+	background:#ddddee;
+	color:#000000;
+}
+
+
+
+.VisualizationMainPage #footer {
+	padding: 0 10px;
+    background: #000000;
+	color:#ddddee;
+}
+.VisualizationMainPage #footer p {
+	margin: 0; 	padding: 10px 0;
+}
+
+EM {text-decoration: bold;}

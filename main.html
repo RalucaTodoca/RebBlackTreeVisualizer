@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>
+			RB Tree
+		</title>
+
+		<!-- pentru design-ul paginii -->
+
+		<link rel="stylesheet" href="design.css">
+
+
+		<!-- animatii folosite pentru slider -->
+		<link rel="stylesheet" href="ThirdParty/jquery-ui-1.8.11.custom.css">
+		<script src="ThirdParty/jquery-1.5.2.min.js"></script>
+		<script src="ThirdParty/jquery-ui-1.8.11.custom.min.js"></script>
+
+		<!-- codul pentru visualizer -->
+		<script type = "text/javascript" src = "AnimationLibrary/CustomEvents.js"> </script>
+		<script type = "text/javascript" src = "AnimationLibrary/UndoFunctions.js"> </script>
+		<script type = "text/javascript" src = "AnimationLibrary/AnimatedObject.js"> </script>
+		<script type = "text/javascript" src = "AnimationLibrary/AnimatedLabel.js"> </script>
+		<script type = "text/javascript" src = "AnimationLibrary/AnimatedCircle.js"> </script>
+		<script type = "text/javascript" src = "AnimationLibrary/AnimatedRectangle.js"> </script>
+		<script type = "text/javascript" src = "AnimationLibrary/AnimatedLinkedList.js"> </script>
+		<script type = "text/javascript" src = "AnimationLibrary/HighlightCircle.js"> </script>
+		<script type = "text/javascript" src = "AnimationLibrary/Line.js"> </script>
+		<script type = "text/javascript" src = "AnimationLibrary/ObjectManager.js"> </script>
+		<script type = "text/javascript" src = "AnimationLibrary/AnimationMain.js"> </script>
+
+		<script type = "text/javascript" src = "AlgorithmLibrary/Algorithm.js"> </script>
+		<script type = "text/javascript" src = "AlgorithmLibrary/RedBlack.js"> </script>
+
+
+	 </head>
+
+	<body onload="init();" class="VisualizationMainPage">
+
+		<div id = "container">
+
+			<div id="header">
+				<h1>Red/Black Tree</h1>
+			</div>
+
+			<div = id = "mainContent">
+
+				<div id = "algoControlSection">
+					<!-- tabel cu butoane pentru a controla animatiile specifive (insert/find/etc) -->
+					<table id="AlgorithmSpecificControls"> </table>
+				</div>
+
+					<!-- canvas-ul unde au loc toate animatiile -->
+
+				<canvas id="canvas" width="1000" height="500"></canvas>
+
+				<div id = "generalAnimationControlSection">
+					<!-- tabel cu butoane pentru a controla animatiile generale (play/pause/undo/etc) ->
+					<!-- ( AnimationMain.js)  -->
+
+					<table id="GeneralAnimationControls">  </table>
+				</div>
+
+			</div> 
+
+
+	</body>
+</html>
